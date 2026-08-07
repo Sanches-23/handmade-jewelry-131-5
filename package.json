@@ -1,11 +1,11 @@
 {
-  "name": "handmade-jewelry-131-5",
+  "name": "project-jdiamond",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/handmade-jewelry-131-5/",
+    "build": "vite build --base=/project-jdiamond/",
     "preview": "vite preview"
   },
   "devDependencies": {
