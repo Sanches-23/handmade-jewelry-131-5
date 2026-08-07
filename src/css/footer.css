@@ -9,10 +9,14 @@
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 24px;
-    font-family: var(--font-accent);
-    font-size: 28px;
-    line-height: 1.2;
+}
+
+.logo-icon {
+    display: block;
+    width: 112px;
+    height: 48px;
 }
 
 .social-list {
@@ -24,9 +28,16 @@
 }
 
 .social-link {
+    display: block;
     font-size: 12px;
     line-height: 1.4;
     transition: color var(--transition-default);
+}
+
+.social-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
 }
 
 .social-link:hover,
@@ -69,10 +80,6 @@
     .footer {
         padding-top: 80px;
     }
-
-    .footer-logo {
-        font-size: 32px;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -90,7 +97,6 @@
         grid-column: 1;
         grid-row: 1;
         margin-bottom: 24px;
-        font-size: 16px;
     }
 
     .social-list {
@@ -114,5 +120,10 @@
     .footer-copy {
         grid-column: 1 / -1;
         margin-top: 24px;
+    }
+
+    .social-icon {
+        width: 24px;
+        height: 24px;
     }
 }
