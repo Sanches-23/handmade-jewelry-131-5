@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -8,11 +12,7 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ol, ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -23,13 +23,44 @@ a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-/*доповнити*/
+
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button, input, textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  vertical-align: middle; /*можлива поправка*/
+}
+
+input, textarea {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: 2px solid transparent;
+}
+
+textarea {
+  resize: none;
+  field-sizing: content;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+address {
+  font-style: normal;
+}

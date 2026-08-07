@@ -2,17 +2,16 @@
   --font-main: 'Mulish', sans-serif;
   --font-accent: 'Sora', sans-serif;
 
-  --primary: #fff;
-  /*--primary: #fff;*/
+  --color-white: #FFFFFF;
+  --color-light-gray: #F2F2F2;
+  --color-dark: #000000;
+  --color-accent: #CCC16E;
 
-  --transition-default: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-default: 300ms cubic-bezier(0.4, 0, 0.2, 1); /*поки значення стандартні*/
 
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-
-  /*color: #242424;*/
-  /*background-color: rgba(255, 255, 255, 0.87);*/
+  font-family: var(--font-main);
+  color: var(--color-dark);
+  background-color: var(--color-white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,7 +23,6 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
   min-height: 100vh;
   margin: 0;
 }
@@ -33,4 +31,7 @@ main {
   flex-grow: 1;
 }
 
-/*пропоную сюди також писати кастомні класи, які можуть повторюватись по макету*/
+/*далі буде*/
+
+
+
